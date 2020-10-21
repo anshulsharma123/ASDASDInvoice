@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".generatedbiils">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/Buttonbill"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="UnknownId"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="@android:color/darker_gray"
+            android:background="@drawable/orange_border"
+            tools:targetApi="p">
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="CUSTOMER DATA"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:id="@+id/Customer"
+                android:textSize="20sp"
+                android:background="?attr/selectableItemBackground"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="@android:color/darker_gray"
+            android:background="@drawable/orange_border"
+            tools:targetApi="p">
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="MAKE BILL"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:id="@+id/MakeBill"
+                android:textSize="20sp"
+                android:background="?attr/selectableItemBackground"/>
+        </FrameLayout>
+
+    </LinearLayout>
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/bar_layout"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="635dp"
+            android:layout_marginTop="90dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Buttonbill"
+            app:layout_constraintVertical_bias="1.0"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

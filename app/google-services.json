@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "912450842416",
+    "firebase_url": "https://asd-invoice.firebaseio.com",
+    "project_id": "asd-invoice",
+    "storage_bucket": "asd-invoice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912450842416:android:eba3b7976815d8763ee2f5",
+        "android_client_info": {
+          "package_name": "com.example.asdinvoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912450842416-4mcam0ac70krh99q99fo9tnqp45uc56m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJjs3uhWItLO8JUupLYubYMBxtU2mZ0Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912450842416-4mcam0ac70krh99q99fo9tnqp45uc56m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
