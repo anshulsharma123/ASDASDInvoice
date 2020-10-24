@@ -11,149 +11,180 @@
         layout="@layout/bar_layout"/>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
         android:elevation="10dp"
         android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
+        android:background="@drawable/white_border"
         tools:targetApi="p">
-        <TextView
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/CustomerName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:paddingTop="20sp"
-            android:textSize="20sp"
-            android:text="This Application is designed to generate the bills in pdf format"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:met_floatingLabel="normal"
+            android:hint="Customer Name"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:met_baseColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            app:met_textColor="@color/colorPrimaryDark"
             />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/white_border"
+        tools:targetApi="p">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/PhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:met_floatingLabel="normal"
+            android:hint="PhoneNo"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:met_baseColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:inputType="number"
+            app:met_textColor="@color/colorPrimaryDark"
+            />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/white_border"
+        tools:targetApi="p">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/GST"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:met_floatingLabel="normal"
+            android:hint="GST NO"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:met_baseColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            app:met_textColor="@color/colorPrimaryDark"
+            />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/white_border"
+        tools:targetApi="p">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/InvoiceNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:met_floatingLabel="normal"
+            android:hint="INVOICE NO"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:met_baseColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            app:met_textColor="@color/colorPrimaryDark"
+            />
+
+    </FrameLayout>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/white_border"
+        tools:targetApi="p">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:met_floatingLabel="normal"
+            android:hint="Quantity"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:met_baseColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:inputType="number"
+            app:met_textColor="@color/colorPrimaryDark"
+            />
+
     </FrameLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:elevation="10dp"
         android:outlineAmbientShadowColor="@android:color/darker_gray"
         android:background="@drawable/orange_border"
         tools:targetApi="p">
-        <TextView
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add"
             android:textColor="@color/colorPrimary"
-            android:textSize="30sp"
-            android:paddingTop="10dp"
-            android:textAlignment="center"
-            android:text="DEVELOPERS"
-            />
+            android:textAllCaps="false"
+            android:id="@+id/AddItem"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/orange_border"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Done"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:id="@+id/Done"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
     </FrameLayout>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
-        android:elevation="10dp"
-        android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
-        tools:targetApi="p">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:paddingTop="10dp"
-            android:paddingLeft="5sp"
-            android:text="DRISHTDYUMN SHRIVASTAVA (Front End)"
-            />
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
-        android:elevation="10dp"
-        android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
-        tools:targetApi="p">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:paddingTop="10dp"
-            android:paddingLeft="5sp"
-            android:text="ANSHUL SHARMA (Back End)"
-            />
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
-        android:elevation="10dp"
-        android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
-        tools:targetApi="p">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="30sp"
-            android:paddingTop="10dp"
-            android:textAlignment="center"
-            android:text="SPECIAL THANKS"
-            />
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
-        android:elevation="10dp"
-        android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
-        tools:targetApi="p">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:paddingTop="10dp"
-            android:paddingLeft="5sp"
-            android:text="Dr. Chandan Kumar Behera"
-            />
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="20dp"
-        android:elevation="10dp"
-        android:outlineAmbientShadowColor="@android:color/darker_gray"
-        android:background="@drawable/orange_border"
-        tools:targetApi="p">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:paddingTop="10dp"
-            android:paddingLeft="5sp"
-            android:text="Dr. Anand Motwani"
-            />
-    </FrameLayout>
+
+
 </LinearLayout>

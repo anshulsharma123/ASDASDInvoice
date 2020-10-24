@@ -55,6 +55,8 @@ public class generatedbiils extends AppCompatActivity {
         recyclerViewAdapter = new RecyclerViewAdapter(generatedbiils.this, contactArrayList);
         recyclerView.setAdapter(recyclerViewAdapter);
 
+
+
         Log.d("dbharry", "Bro you have "+ db.getCount()+ " contacts in your database");
 
 
